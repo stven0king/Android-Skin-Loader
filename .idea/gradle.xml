@@ -15,14 +15,7 @@
             <option value="$PROJECT_DIR$/android-skin-loader-skin" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/android-skin-loader-lib" />
-            <option value="$PROJECT_DIR$/android-skin-loader-sample" />
-            <option value="$PROJECT_DIR$/android-skin-loader-skin" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

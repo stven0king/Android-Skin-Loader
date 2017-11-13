@@ -16,7 +16,7 @@ public class BackgroundAttr extends SkinAttr {
 			Log.i("attr", "apply as color");
 		}else if(RES_TYPE_NAME_DRAWABLE.equals(attrValueTypeName)){
 			Drawable bg = SkinManager.getInstance().getDrawable(attrValueRefId);
-			view.setBackground(bg);
+			view.setBackgroundDrawable(bg);
 			Log.i("attr", "_________________________________________________________");
 			Log.i("attr", "apply as drawable");
 			Log.i("attr", "bg.toString()  " + bg.toString());

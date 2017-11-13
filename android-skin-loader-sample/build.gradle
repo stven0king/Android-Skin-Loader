@@ -21,56 +21,5 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
     compile project(':android-skin-loader-lib')
-}
-
-final def TARGET_SKIN_DIR = '../skin-package/'
-final def SAMPLE_NAME = 'Sample.apk'
-assembleRelease.doLast {
-    println("=====================assembleRelease.doLast.begin.=========================")
-
-    def dir = new File(TARGET_SKIN_DIR)
-    if (!dir.exists()) {
-        dir.mkdirs()
-    }
-
-    def f = new File(TARGET_SKIN_DIR + SAMPLE_NAME)
-    if (f.exists()) {
-        f.delete()
-    }
-
-    copy {
-        from('build/outputs/apk')
-        into(TARGET_SKIN_DIR)
-        include '*.apk'
-        exclude '**/*-unaligned.apk'
-        rename ('android-skin-loader-sample-release.apk', SAMPLE_NAME)
-    }
-
-    println("=====================assembleRelease.doLast success.=========================")
-}
-
-assembleDebug.doLast {
-    println("=====================assembleDebug.doLast.begin.=========================")
-
-    def dir = new File(TARGET_SKIN_DIR)
-    if (!dir.exists()) {
-        dir.mkdirs()
-    }
-
-    def f = new File(TARGET_SKIN_DIR + SAMPLE_NAME)
-    if (f.exists()) {
-        f.delete()
-    }
-
-    copy {
-        from('build/outputs/apk')
-        into(TARGET_SKIN_DIR)
-        include '*.apk'
-        exclude '**/*-unaligned.apk'
-        rename ('android-skin-loader-sample-debug.apk', SAMPLE_NAME)
-    }
-
-    println("=====================assembleDebug.doLast success.=========================")
 }

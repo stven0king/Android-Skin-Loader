@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
 
-def skinName = "BlackFantacy.skin"
-
 android {
     signingConfigs {
         config {
@@ -30,13 +28,15 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
 
-final def TARGET_SKIN_DIR = '../skin-package/'
+//皮肤包名
+def skinName = "BlackFantacy.skin"
+//皮肤目录
+final def TARGET_SKIN_DIR = 'skin-package/'
 
-gradle.projectsEvaluated {
+afterEvaluate {
     assembleRelease.doLast {
         println("=====================assembleRelease.doLast.begin.=========================")
 
@@ -73,7 +73,6 @@ gradle.projectsEvaluated {
         if (f.exists()) {
             f.delete()
         }
-
         copy {
             from('build/outputs/apk')
             into(TARGET_SKIN_DIR)
