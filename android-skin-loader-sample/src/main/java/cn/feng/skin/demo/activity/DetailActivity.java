@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 import cn.feng.skin.demo.R;
 import cn.feng.skin.manager.base.BaseActivity;
+import cn.feng.skin.manager.loader.SkinManager;
 import cn.feng.skin.manager.util.ResourceUtils;
 
 public class DetailActivity extends BaseActivity{
@@ -28,7 +29,7 @@ public class DetailActivity extends BaseActivity{
 	private void initView() {
 		titleText = (TextView) findViewById(R.id.title_text);
 		detailText = (TextView) findViewById(R.id.detail_text);
-		
+		detailText.setTextColor(SkinManager.getInstance().getColor(R.color.color_new_item_title_pressed));
 		titleText.setText("生命中的美好都是免费的");
 		detailText.setText(article);
 	}
