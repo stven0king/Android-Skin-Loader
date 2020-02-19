@@ -5,6 +5,7 @@ import cn.feng.skin.manager.util.PreferencesUtils;
 
 public class SkinConfig {
 	public  static final String     NAMESPACE 				=   "http://schemas.android.com/android/skin";
+	public  static final String     AUTO_NAMESPACE 				=   "http://schemas.android.com/apk/res-auto";
 	public 	static final String 	SKIN_SUFFIX				= 	".theme";
 	public 	static final String 	SKIN_FOLER_NAME 		= 	"skin";
 	public 	static final String 	PREF_CUSTOM_SKIN_PATH 	= 	"cn_feng_skin_custom_path";

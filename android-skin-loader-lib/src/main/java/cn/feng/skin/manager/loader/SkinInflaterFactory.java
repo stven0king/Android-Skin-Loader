@@ -37,7 +37,7 @@ public class SkinInflaterFactory implements Factory {
 	@Override
 	public View onCreateView(String name, Context context, AttributeSet attrs) {
 		// if this is NOT enable to be skined , simplly skip it 
-		boolean isSkinEnable = attrs.getAttributeBooleanValue(SkinConfig.NAMESPACE, SkinConfig.ATTR_SKIN_ENABLE, false);
+		boolean isSkinEnable = attrs.getAttributeBooleanValue(SkinConfig.AUTO_NAMESPACE, SkinConfig.ATTR_SKIN_ENABLE, false);
         if (!isSkinEnable){
         		return null;
         }
