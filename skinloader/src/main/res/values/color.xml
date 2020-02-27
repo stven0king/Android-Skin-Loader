@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skin_main_bg">#0000ff</color>
+    <color name="skin_main_textcolor">#ffff00</color>
+    <color name="skin_main_text_bg">#ffffff</color>
+</resources>

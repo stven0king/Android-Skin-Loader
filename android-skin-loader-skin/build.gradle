@@ -33,7 +33,7 @@ dependencies {
 //皮肤包名
 def skinName = "BlackFantacy.skin"
 //皮肤目录
-final def TARGET_SKIN_DIR = 'skin-package/'
+final def TARGET_SKIN_DIR = '../skin-package/'
 
 afterEvaluate {
     assembleRelease.doLast {
@@ -50,11 +50,11 @@ afterEvaluate {
         }
 
         copy {
-            from('build/outputs/apk/release')
+            from('build/outputs/apk/release/')
             into(TARGET_SKIN_DIR)
             include '*.apk'
             exclude '**/*-unaligned.apk'
-            rename ('android-skin-loader-skin-release.apk', skinName)
+            rename ('android-skin-loader-skin-release-unsigned.apk', skinName)
         }
 
         println("=====================assembleRelease.doLast success.=========================")
@@ -73,7 +73,7 @@ afterEvaluate {
             f.delete()
         }
         copy {
-            from('build/outputs/apk/debug')
+            from('build/outputs/apk/debug/')
             into(TARGET_SKIN_DIR)
             include '*.apk'
             exclude '**/*-unaligned.apk'

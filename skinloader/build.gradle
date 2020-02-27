@@ -1,14 +1,16 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+//使用maven插件
+apply plugin: 'maven'
 
 android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "cn.feng.skin.demo"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+
     }
     buildTypes {
         release {
@@ -16,12 +18,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation project(':android-skin-loader-lib')
-    implementation project(':skinloader')
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.android.support:appcompat-v7:28.0.0'
 }

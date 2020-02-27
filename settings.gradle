@@ -1,1 +1,4 @@
-include ':android-skin-loader-sample', ':android-skin-loader-lib', ':android-skin-loader-skin'
+include ':android-skin-loader-sample',
+        ':android-skin-loader-lib',
+        ':android-skin-loader-skin',
+        ':skinloader'
