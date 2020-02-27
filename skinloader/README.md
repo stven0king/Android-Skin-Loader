@@ -64,7 +64,7 @@ public class IMTextView extends TextView implements SkinViewInterface {
                 .registSkinViewConvertMap(Button.class, SkinButton.class)
                 .registSkinViewConvertMap(TextView.class, SkinTextView.class)
                 .registSkinViewConvertMap(RelativeLayout.class, SkinRelativeLayout.class)
-   							.setDefaultSkinLoaderListener(new SkinLoaderListener() {//设置换肤资源的监听
+   		.setDefaultSkinLoaderListener(new SkinLoaderListener() {//设置换肤资源的监听
                         @Override
                         public void onStart() {
                             Logger.d("SkinManager", "onStart");
