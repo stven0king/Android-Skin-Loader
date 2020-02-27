@@ -32,8 +32,7 @@ Android-Skin-Loader
 
 
 
-##皮肤
-在` android-skin-loader-skin `皮肤demo的同级目录`skin-package`文件夹中，`BlackFantacy.skin`放在SD卡根目录。
+皮肤在` android-skin-loader-skin `皮肤demo的同级目录`skin-package`文件夹中，`BlackFantacy.skin`放在SD卡根目录。
 
 
 ## 用法
