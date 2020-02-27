@@ -26,6 +26,8 @@ Android-Skin-Loader
 
 `skinloader` 是在 `Android-Skin-Loader` 的基础上进行的开发，因为 `Android-skin-support`  的好多功能都用不到。`skinloader` 使用换肤类，来解决代码中通过`new`创建出来的`View`换肤的情况。
 
+[skinloader的详细介绍](https://github.com/stven0king/Android-Skin-Loader/tree/master/skinloader)
+
 
 
 =================原项目介绍====================
