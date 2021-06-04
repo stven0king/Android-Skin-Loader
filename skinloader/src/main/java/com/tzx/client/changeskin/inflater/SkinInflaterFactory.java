@@ -1,12 +1,12 @@
-package com.wuba.client.changeskin.inflater;
+package com.tzx.client.changeskin.inflater;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.wuba.client.changeskin.manager.SkinManager;
-import com.wuba.client.changeskin.view.SkinViewInterface;
+import com.tzx.client.changeskin.manager.SkinManager;
+import com.tzx.client.changeskin.view.SkinViewInterface;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

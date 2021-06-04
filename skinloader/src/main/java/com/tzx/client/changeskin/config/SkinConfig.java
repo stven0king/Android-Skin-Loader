@@ -1,11 +1,9 @@
-package com.wuba.client.changeskin.config;
+package com.tzx.client.changeskin.config;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.wuba.client.changeskin.manager.SkinPreferences;
-
-import java.util.logging.Logger;
+import com.tzx.client.changeskin.manager.SkinPreferences;
 
 /**
  * Created by Tanzhenxing

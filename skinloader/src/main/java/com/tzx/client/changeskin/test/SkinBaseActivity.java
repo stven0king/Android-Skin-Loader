@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.test;
+package com.tzx.client.changeskin.test;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 
 
-import com.wuba.client.changeskin.inflater.SkinInflaterFactory;
-import com.wuba.client.changeskin.manager.SkinManager;
-import com.wuba.client.changeskin.manager.SkinResource;
-import com.wuba.client.changeskin.manager.SkinUpdateLinstener;
+import com.tzx.client.changeskin.inflater.SkinInflaterFactory;
+import com.tzx.client.changeskin.manager.SkinManager;
+import com.tzx.client.changeskin.manager.SkinResource;
+import com.tzx.client.changeskin.manager.SkinUpdateLinstener;
 
 /**
  * Created by Tanzhenxing

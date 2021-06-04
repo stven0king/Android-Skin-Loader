@@ -1,13 +1,13 @@
-package com.wuba.client.changeskin.test;
+package com.tzx.client.changeskin.test;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.wuba.client.changeskin.view.SkinBackgroundAttr;
-import com.wuba.client.changeskin.view.SkinTextColorAttr;
-import com.wuba.client.changeskin.view.SkinViewInterface;
+import com.tzx.client.changeskin.view.SkinBackgroundAttr;
+import com.tzx.client.changeskin.view.SkinTextColorAttr;
+import com.tzx.client.changeskin.view.SkinViewInterface;
 
 /**
  * Created by Tanzhenxing

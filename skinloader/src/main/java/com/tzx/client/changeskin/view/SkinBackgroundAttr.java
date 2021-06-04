@@ -1,12 +1,12 @@
-package com.wuba.client.changeskin.view;
+package com.tzx.client.changeskin.view;
 
 import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.wuba.client.changeskin.manager.SkinManager;
-import com.wuba.client.changeskin.manager.SkinResource;
+import com.tzx.client.changeskin.manager.SkinManager;
+import com.tzx.client.changeskin.manager.SkinResource;
 
 /**
  * Created by Tanzhenxing

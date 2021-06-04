@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.manager;
+package com.tzx.client.changeskin.manager;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -13,9 +13,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.wuba.client.changeskin.config.SkinConfig;
-import com.wuba.client.changeskin.inflater.InflaterInterface;
-import com.wuba.client.changeskin.view.SkinViewInterface;
+import com.tzx.client.changeskin.config.SkinConfig;
+import com.tzx.client.changeskin.inflater.InflaterInterface;
+import com.tzx.client.changeskin.view.SkinViewInterface;
 
 import java.io.File;
 import java.lang.reflect.Method;
@@ -23,7 +23,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
 
 /**
  * Created by Tanzhenxing

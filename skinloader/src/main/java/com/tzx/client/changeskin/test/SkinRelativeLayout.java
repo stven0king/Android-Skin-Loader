@@ -1,34 +1,33 @@
-package com.wuba.client.changeskin.test;
+package com.tzx.client.changeskin.test;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.view.View;
+import android.widget.RelativeLayout;
 
-
-import com.wuba.client.changeskin.view.SkinBackgroundAttr;
-import com.wuba.client.changeskin.view.SkinViewInterface;
+import com.tzx.client.changeskin.view.SkinBackgroundAttr;
+import com.tzx.client.changeskin.view.SkinViewInterface;
 
 /**
  * Created by Tanzhenxing
  * Date: 2020-02-20 18:00
  * Description:
  */
-public class SkinView extends View implements SkinViewInterface {
+public class SkinRelativeLayout extends RelativeLayout implements SkinViewInterface {
     private SkinBackgroundAttr skinBackgroundAttr;
-    public SkinView(Context context) {
+    public SkinRelativeLayout(Context context) {
         this(context, null);
     }
 
-    public SkinView(Context context, @Nullable AttributeSet attrs) {
+    public SkinRelativeLayout(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, -1);
     }
 
-    public SkinView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public SkinRelativeLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         this(context, attrs, defStyleAttr, -1);
     }
 
-    public SkinView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public SkinRelativeLayout(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         skinBackgroundAttr = new SkinBackgroundAttr(this, attrs);
     }

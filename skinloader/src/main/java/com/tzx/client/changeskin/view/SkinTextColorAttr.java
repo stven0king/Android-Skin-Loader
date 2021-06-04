@@ -1,12 +1,10 @@
-package com.wuba.client.changeskin.view;
+package com.tzx.client.changeskin.view;
 
-import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.wuba.client.changeskin.manager.SkinResource;
+import com.tzx.client.changeskin.manager.SkinResource;
 
 /**
  * Created by Tanzhenxing

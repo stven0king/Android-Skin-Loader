@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.view;
+package com.tzx.client.changeskin.view;
 
 /**
  * Created by Tanzhenxing

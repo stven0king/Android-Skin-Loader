@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.test;
+package com.tzx.client.changeskin.test;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 
-import com.wuba.client.changeskin.R;
-import com.wuba.client.changeskin.manager.SkinManager;
-import com.wuba.client.changeskin.manager.SkinResource;
+import com.tzx.client.changeskin.R;
+import com.tzx.client.changeskin.manager.SkinManager;
+import com.tzx.client.changeskin.manager.SkinResource;
 
 import java.io.File;
 

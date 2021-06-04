@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.view;
+package com.tzx.client.changeskin.view;
 
 import android.content.res.TypedArray;
 import android.text.TextUtils;

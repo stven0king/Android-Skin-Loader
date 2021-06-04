@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.inflater;
+package com.tzx.client.changeskin.inflater;
 
 import android.content.Context;
 import android.util.ArrayMap;

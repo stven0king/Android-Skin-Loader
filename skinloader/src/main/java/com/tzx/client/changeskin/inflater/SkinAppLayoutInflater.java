@@ -1,10 +1,10 @@
-package com.wuba.client.changeskin.inflater;
+package com.tzx.client.changeskin.inflater;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.wuba.client.changeskin.manager.SkinManager;
+import com.tzx.client.changeskin.manager.SkinManager;
 
 /**
  * Created by Tanzhenxing

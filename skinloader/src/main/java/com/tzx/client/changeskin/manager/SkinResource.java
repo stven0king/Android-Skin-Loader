@@ -1,4 +1,4 @@
-package com.wuba.client.changeskin.manager;
+package com.tzx.client.changeskin.manager;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

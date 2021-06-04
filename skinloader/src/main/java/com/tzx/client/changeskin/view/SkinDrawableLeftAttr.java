@@ -1,11 +1,11 @@
-package com.wuba.client.changeskin.view;
+package com.tzx.client.changeskin.view;
 
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 
-import com.wuba.client.changeskin.manager.SkinResource;
+import com.tzx.client.changeskin.manager.SkinResource;
 
 /**
  * Created by Tanzhenxing
